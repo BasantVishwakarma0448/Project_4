@@ -58,6 +58,15 @@
 		<maven.compiler.source>11</maven.compiler.source>
 	</properties>
 	<build>
+		<pluginManagement>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.sonar</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>2.5</version>
+      </plugin>
+    </plugins>
+  </pluginManagement>
 		<finalName>Project_4</finalName>
 	</build>
 </project>
